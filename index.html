@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Example Template</title>
+        <link rel="stylesheet" href="./assets/style.css">
+    </head>
+
+    <body>  
+        <header>
+            <!--this is the naviagation tab with links to other pages-->
+            <a href="url">GitHub</a>
+            <a href="url">Portfolio</a>
+            <a href="url">Development Tracking</a>
+            <a href="url">Contact</a>
+            
+            <h1>Website Example Template</h1>
+        </header>
+
+        <main>
+            <div>
+                <!--"alt" tags increase image accessibility for users-->
+                <img src="./sample assets/image-1.png" alt ="multi-colored squares with sample text in the center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div>
+                <h2>Contact Me</h2>
+                <!--this form contains input fields for names and a tick box-->
+                <form action="./index.html"><!--"action" is an attribute that refers to the action to be performed when the form is submitted-->
+                    <label for="fname">First name:</label><br> <!--<br> refers to a line break-->
+                    <input type="text" id="fname" name="fname" value="Jane"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                
+                    <input type="checkbox" id="checkbox1id" name="checkbox1n" value="Yes">
+                    <label for="checkbox1n">Would you like to tick this box?</label><br><br>
+
+                    <input type="submit" value="Submit">                    
+                </form>
+                
+                <p>What option will you select?</p>
+                <!--this form contains a multiple choice question-->
+                <form action="./index.html"><!--add a form submission landing page here-->
+                    
+                    <input type="radio" id="option1id" name="option1n" value="Option 1"><!--input type="radio" refers to a multiple choice answer form type-->
+                    <label for="option1id">Option 1</label><br>
+                    <input type="radio" id="option2id" name="option2n" value="Option 2">
+                    <label for="option2id">Option 2</label><br>
+                    <input type="radio" id="option3id" name="option3n" value="Option 3">
+                    <label for="option3id">Option 3</label><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <h4>&#169; 2024 New Website Production</h4>
+        </footer>
+    </body>
+</html>
